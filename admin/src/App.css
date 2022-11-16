@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,26 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.App{
+  background-color: azure;
+}
+
+.container{
+  display: flex;
+  min-height: 100vh;
+}
+
+.container .row:first-child{
+  width: 300px;
+  border-right: 1px solid #2e7289;
+}
+.container .row:last-child {
+  width: 100%;
+}
+
+.container .row:last-child .col:first-child {
+  height: 80px;
+  border-bottom: 1px solid #2e7289;
 }
