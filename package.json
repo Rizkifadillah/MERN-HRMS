@@ -1,0 +1,23 @@
+{
+  "name": "HR_Management_System",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rizkifadillah/MERN-HRMS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rizkifadillah/MERN-HRMS/issues"
+  },
+  "homepage": "https://github.com/Rizkifadillah/MERN-HRMS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
