@@ -18,6 +18,9 @@ code {
   box-sizing: border-box;
 }
 
+::selection{
+  background-color: azure;
+}
 
 a{
   text-decoration: none;

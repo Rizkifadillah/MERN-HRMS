@@ -24,6 +24,7 @@ const Home = () => {
             <div className="col">
                 <Routes>
                     <Route path="/" element={<Dashboard />} />
+                    <Route path="/dashboard" element={<Dashboard />} />
                     <Route path="/users" element={<User />} />
                     <Route path="/departments" element={<Department />} />
                     <Route path="/employee" element={<Employee />} />
