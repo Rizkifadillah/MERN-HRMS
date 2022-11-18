@@ -10,6 +10,7 @@ import Events from './mainpages/Events';
 import User from './mainpages/User';
 import Holidays from './mainpages/Holidays'
 import Accounts from './mainpages/Accounts';
+import Setting from './mainpages/Setting';
 
 const Home = () => {
   return (
@@ -32,6 +33,7 @@ const Home = () => {
                     <Route path="/events" element={<Events />} />
                     <Route path="/holidays" element={<Holidays />} />
                     <Route path="/accounts" element={<Accounts />} />
+                    <Route path="/setting" element={<Setting />} />
                 </Routes>
             </div>
         </div>

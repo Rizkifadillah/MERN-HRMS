@@ -70,7 +70,7 @@
 .s-logo{
   font-size: 40px;
   text-align: center;
-  color: #445147;
+  color: gray;
   margin: 20px 0;
   font-family: 'Courier New', Courier, monospace;}
 
@@ -91,6 +91,7 @@
 
 .s-group .s-link{
   text-transform: uppercase;
+  color: gray;
 }
 
 /* NavLink{
@@ -127,6 +128,7 @@
   width: 500px;
   background-color: #fff;
   border-radius: 5px;
+  box-shadow: 0 0 4px gray;
 }
 
 .l-groups{
@@ -137,6 +139,7 @@
   text-align: center;
   margin: 20px 0 50px 0;
   font-size: 40px;
+  color: gray;
 }
 
 .l-group{
@@ -173,7 +176,7 @@
 }
 
 .l-btn:hover{
-  background-color: #000000;
+  background-color: gray;
   color: #fff;
 }
 
@@ -186,7 +189,7 @@
   margin-left: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
-  color:#445147;
+  color:gray;
   letter-spacing: 1px;
 }
 
@@ -213,7 +216,7 @@
   top: 10px;
   left: 0;
   padding: 15px 20px;
-  background-color: #ffc;
+  background-color: rgba(75, 192, 192, 0.2);
   font-weight: bold;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -242,6 +245,11 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+
+.d-subtitle:hover {
+  color: #445147;
 }
 
 .d-row:nth-child(3){
@@ -285,20 +293,177 @@
   margin: 0 25px;
   cursor: pointer;
   transition: 0.5s all;
-  color: #445147;
+  color: gray;
 }
 
 .t-settings{
   transition: 0.5s all;
-  color: #445147
+  color: gray
 }
 
 .t-settings:hover,
 .t-logout:hover{
-  color: #cccccc;
+  color: #000000;
 }
 
 .t-link svg{
   vertical-align: text-bottom;
 }
 
+.u-container{
+  padding: 15px 25px;
+}
+
+.u-row:first-child{
+  display: flex;
+  justify-content: space-between;
+}
+
+.u-btn{
+  background-color: transparent;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  border: none;
+  transition: all 0.5s;
+  box-shadow: 0 0 4px gray;
+  font-weight: 500;
+  color: rgb(99, 98, 98);
+  border-radius: 2px;
+  width: 100px;
+  height: 30px;
+  margin-bottom: 50px;
+}
+
+.u-btn:hover{
+  background-color: gray;
+  color: #cccccc;
+}
+
+.u-row:nth-child(2){
+  margin-top: 50px;
+}
+
+.quick-container{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  background-color: #0000001e;
+  opacity: 1;
+  
+}
+
+.card-quick{
+  width: 600px;
+  background-color: #fff;
+  padding: 30px 10px;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.card-row{
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.back{
+  padding: 5px 25px;
+  background-color: #000000;
+  color: #fff;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: unset !important;
+}
+
+.back:hover{
+  transform: translateY(-5px);
+}
+
+.add{
+  /* display: block;
+  margin: 0 auto;
+  padding: 5px 25px;
+  color: gray;
+  transition: all 0.5s; */
+  /* display: flex; */
+  background-color: transparent;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border: none;
+    transition: all 0.5s;
+    box-shadow: 0 0 4px rgb(1, 1, 1);
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+    width: 100px;
+    height: 30px;
+    font-weight: 700;
+    /* margin-bottom: 50px; */
+}
+
+.add:hover{
+  color: white !important;
+  background-color: rgb(10, 10, 10);
+}
+
+.formAdd{
+  display: flex;
+  align-items: center;
+}
+
+.card-flex:not(first-child){
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-row input{
+  height: 40px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 0 15px;
+}
+
+.card-flex:first-child .card-row input{
+  width: 540px;
+}
+.card-row input:not(first-child){
+  width: 250px;
+}
+
+.card-row select{
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: gray;
+}
+
+.u-badge{
+  height: 100px;
+  width: 200px;
+  box-shadow: 0 0 4px gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  font-family: Arial,
+    Helvetica,
+    sans-serif;
+    border-radius: 8px;
+}
+
+.u-total{
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: gray;
+}
